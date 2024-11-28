@@ -18,6 +18,7 @@ jobs:
         with:
           java-version: ${{ env.JAVA_VERSION }}
 
+
       - name: maven build, clean
         run: |
           mvn clean package -DskipTests
